@@ -1,0 +1,135 @@
+	.btn-default {
+color: #333;
+background-color: #fff;
+border-color: #ccc;
+}
+    h1{
+    padding:30px;
+    }
+    
+      /* Override some defaults */
+      html, body {
+        background-color: #eee;
+      }
+      body {
+        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+		overflow: visible;
+      }
+      .container > footer p {
+        text-align: center; /* center align it with the container */
+      }
+      /*.container {
+        width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. 
+      }*/
+
+      /* The white background content wrapper */
+      .container > .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+        -webkit-border-radius: 0 0 6px 6px;
+           -moz-border-radius: 0 0 6px 6px;
+                border-radius: 0 0 6px 6px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+      /* Page header tweaks */
+      .page-header {
+        background-color: #f5f5f5;
+        padding: 20px 20px 10px;
+        margin: -20px -20px 20px;
+      }
+
+      /* Styles you shouldn't keep as they are for displaying this base example only */
+      .content .span10,
+      .content .span4 {
+        min-height: 500px;
+      }
+      /* Give a quick and non-cross-browser friendly divider */
+      .content .span4 {
+        margin-left: 0;
+        padding-left: 19px;
+        border-left: 1px solid #eee;
+      }
+
+      .topbar .btn {
+        border: 0;
+      }
+      .title{
+      font-size: 19px; 
+      color:#3b5998;
+      float: left;
+      }
+	  .input-small{
+	  height: 28px;
+		width: 160px;
+		 border: 0px; 
+		 
+	  }
+	  .container{
+	  font-size:17px;
+	  font-family:sans-serif;
+	  font-weight:bold;
+	  }
+	  .button1{
+	  margin-left: 10px;
+	 margin-top: -5px;
+	  }
+	  .col-lg-6{
+	  font-size:17px;
+	  font-family:sans-serif;
+	  }
+	  #srt{
+	  height:20px;
+	  width:30px;
+	  }
+	  select{
+	  height:30px;
+	  }
+	  .row {
+margin-right: -37px;
+margin-left: -36px;
+margin-top: -23px;
+}
+#row2{
+margin-right: 62px;
+margin-left: -23px;
+margin-top: 0px;
+}
+hr{
+margin-top: 24px;
+margin-bottom: 30px;
+border: 0;
+border-top: 2px solid #ABAAAA;
+width: 190%;
+}  
+table{
+font-size:13px;
+} 
+.panel{
+margin: -px -16px 61px -13px;
+background-color: #fff;
+/* border: 1px solid transparent; */
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.media {
+margin-top: 32px;
+margin-left: 9px;
+margin-bottom: -3px;
+}
+span{
+font-size:14px;
+}
+.media:first-child {
+margin-top: 27px;
+}
+.topbar-inner, .topbar .fill {
+background-color: #37393D;
+}
+.topbar input{
+border: 1px solid rgba(32, 27, 27, 0);
+}

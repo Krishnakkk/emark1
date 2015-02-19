@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="utf-8">
+    <title>Emark Save Page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src = "bootstrap-dropdown.js"></script>
+        
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    h1{
+    padding:30px;
+    }
+    
+      /* Override some defaults */
+      html, body {
+        background-color: #eee;
+      }
+      body {
+        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+		overflow: visible;
+      }
+      .container > footer p {
+        text-align: center; /* center align it with the container */
+      }
+      /*.container {
+        width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. 
+      }*/
+
+      /* The white background content wrapper */
+      .container > .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+        -webkit-border-radius: 0 0 6px 6px;
+           -moz-border-radius: 0 0 6px 6px;
+                border-radius: 0 0 6px 6px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+      /* Page header tweaks */
+      .page-header {
+        background-color: #f5f5f5;
+        padding: 20px 20px 10px;
+        margin: -20px -20px 20px;
+
+      }
+
+      /* Styles you shouldn't keep as they are for displaying this base example only */
+      .content .span10,
+      .content .span4 {
+        min-height: 500px;
+      }
+      /* Give a quick and non-cross-browser friendly divider */
+      .content .span4 {
+        margin-left: 0;
+        padding-left: 19px;
+        border-left: 1px solid #eee;
+      }
+
+      .topbar .btn {
+        border: 0;
+      }
+      .title{
+      font-size: 19px; 
+      color:#3b5998;
+      float: left;
+      }
+	  .input-small{
+	  height: 28px;
+		width: 160px;
+		 border: 0px; 
+	  }
+	  .container{
+	  font-size:17px;
+	  font-family:sans-serif;
+	  font-weight:bold;
+	  }
+	  .button1{
+	  margin-left: 10px;
+	 margin-top: -5px;
+	  }
+	  .col-lg-6{
+	  font-size:17px;
+	  font-family:sans-serif;
+	  }
+	  #srt{
+	  height:20px;
+	  width:30px;
+	  }
+	  select{
+	  height:30px;
+	  }
+	  .row {
+margin-right: -20px;
+margin-left: -21px; 
+margin-top: -21px;
+
+}
+hr{
+margin-top: 24px;
+margin-bottom: 30px;
+border: 0;
+border-top: 2px solid #ABAAAA;
+width: 190%;
+}  
+table{
+font-size:13px;
+} 
+.panel{
+margin: -2px -16px 61px -13px;
+background-color: #fff;
+/* border: 1px solid transparent; */
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.media {
+margin-top: 15px;
+margin-left: 29px;
+}
+input{
+height:30px;
+width:200px;
+}
+.tabs {
+border-color: #ddd;
+border-style: none;
+border-width:0px;
+}
+   </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+<!---header start-->
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="#">Emark</a>
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <form action="" class="pull-right">
+            <input class="input-small" type="text" placeholder="Username">
+            <input class="input-small" type="password" placeholder="Password">
+            <button class="btn" type="submit">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+<!---header End-->
+<div class="container">
+	<div class="content">
+			<div class="page-header">
+			<div class="col-lg-8">
+				 <ul class="media-grid">
+					  <li>
+						<a href="#">
+						  <img src="icon.png" >
+						</a>
+					  </li>
+					  <li >
+					  <h1 class="title">Emark Saved Page </h1>
+					  </li>
+		
+				</ul>
+
+				 <ul class="tabs">
+					  <li class="active"><a href="#">All</a></li>
+					  <li class=""><a href="#">Links</a></li>
+					  <li class=""><a href="#">Archive</a></li>
+					  <li>		  
+								<select>
+									<option selected>--Select Category--</option>
+									<option>Education</option>
+									<option>Entertainment</option>
+									<option>Sports</option>
+								</select>	
+						</li>
+
+                    </ul>
+                </div>
+			<div class="col-lg-4">
+					<div class="input-group">
+						  <input type="text" class="form-control" placeholder="Search for Category...">
+						  <span class="input-group-btn">
+							<button class="btn btn-default" type="button">Go!</button>
+						  </span>
+						</div>			
+             </div> 		
+			<div class="row">
+								<!--<div class="panel panel-default">
+							  <!-- Default panel contents
+							  <div class="panel-heading">Bookmarked This Month</div>
+									<table class="table table-default" style="width:100%;">
+									<tbody>
+									<tr>
+										<td><img src="icon.png" alt="" class="img-rounded"></td>
+										<td>NDTV.com: Latest News, India News, Business, Cricket, Bollywood</td>
+										<td>NDTV.com provides latest news, videos from India and the world. Get today’s news headlines from Business, Technology, Sports, Movies, videos, photos, live news coverage and exclusive breaking news from India.</td>
+										<td>https://www.ndtv.com</td>
+									</tr>
+									<tr>
+										<td><img src="icon.png" alt="" class="img-rounded"></td>
+										<td>NDTV.com: Latest News, India News, Business, Cricket, Bollywood</td>
+										<td>NDTV.com provides latest news, videos from India and the world. Get today’s news headlines from Business, Technology, Sports, Movies, videos, photos, live news coverage and exclusive breaking news from India.</td>
+										<td>https://www.ndtv.com</td>
+									</tr>
+									</tbody>
+									</table>
+								</div>-->
+								
+			<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					
+				<div class="panel panel-default">  
+					<div class="panel-heading">Bookmarked This Month</div>
+					
+						<div class="media">
+							<a class="thumbnail pull-left" href="#">
+								<img class="media-object" src="icon.png">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">NDTV.com: Latest News, India News, Business, Cricket, Bollywood</h4>
+								<p class="table"><span>NDTV.com provides latest news, videos from India and the world. Get today’s news headlines from Business, Technology, Sports, Movies, videos, photos, live news coverage and exclusive breaking news from India.</span></p>
+								<p>
+									
+									<a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-share"></span>Share</a>
+									
+								</p>
+							</div>
+							<hr>
+						</div>
+						
+						
+						
+					 <div class="media">
+							<a class="thumbnail pull-left" href="#">
+								<img class="media-object" src="icon.png">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">NDTV.com: Latest News, India News, Business, Cricket, Bollywood</h4>
+								<p><span>NDTV.com provides latest news, videos from India and the world. Get today’s news headlines from Business, Technology, Sports, Movies, videos, photos, live news coverage and exclusive breaking news from India.</span></p>
+								<p>
+									
+									<a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-share"></span>Share</a>
+									
+								</p>
+							</div>
+							<hr>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>			<!--<div class="col-lg-12" >
+						
+						<h2 style="font-size: 17px;margin-top: -5px;font-family:sans-serif;">Bookmarked This Month</h2>
+					</div>			
+				<hr width="100%">
+				
+				<div class="row">
+					<div class="col-lg-6 col-sm-6 col-xs-6">
+						<img src="icon.png" alt="" class="img-rounded">
+					</div>	
+					<div class="col-lg-6 col-sm-6 col-xs-6"><h4>Get Title</h4>
+					
+					
+					<div class="col-lg-12 col-sm-12 col-xs-12">
+					<p style="font-size:19px;">Description</p>
+					</div>
+					</div>
+					 
+				</div>
+		-->		
+
+	
+	<!--Footer part-->
+	  <footer>
+		<p>Emark &copy; Company 2015</p>
+	  </footer>
+
+</div> <!-- /container -->
+
+  </body>
+</html>
