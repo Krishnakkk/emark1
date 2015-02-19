@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Emark Save Page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome.min.css">
+	<link rel="stylesheet" href="font-awesome.css">
+	<link rel="stylesheet" href="style.css">
+    <script src = "bootstrap-dropdown.js"></script>
+        
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+<!---header start-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Emark</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="nav nav-pills">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+        <div class="col-sm-3 col-md-3 pull-right">
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for category..." name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>        
+    </div>
+</nav>
+<!---header End-->
+<div class="container">
+	<div class="content">
+			<div class="page-header">
+				<div class="row" id="row2">
+					<div class="col-lg-8 col-sm-8 col-xs-8">
+						 <ul class="media-grid">
+							  <li>
+								<a href="#">
+								  <img src="icon.png" >
+								</a>
+							  </li>
+							  <li >
+							  <h1 class="title">Emark Saved Page </h1>
+							  </li>
+						</ul>
+					</div>	
+					<div class="col-lg-4 col-sm-4 col-xs-4">
+						
+					</div>
+				</div>	
+				 <ul class="tabs">
+					  <li class="active"><a href="#">All</a></li>
+					  <li class=""><a href="#">Links</a></li>
+					  <li class=""><a href="#">Archive</a></li>
+					  <li>		  
+								<select>
+									<option selected>--Select Category--</option>
+									<option>Education</option>
+									<option>Entertainment</option>
+									<option>Sports</option>
+								</select>	
+						</li>		
+				</ul>
+				
+			</div>
+			<div class="row">
+			<div class="panel panel-default">
+		  <!-- Default panel contents-->
+		  <div class="panel-heading">Bookmarked This Month</div>
+				<table class="table table-default" style="width:100%;">
+				<tbody>
+				<tr>
+					<td><img src="icon.png" alt="" class="img-rounded"></td>
+					<td>NDTV.com: Latest News, India News, Business, Cricket, Bollywood</td>
+					<td>NDTV.com provides latest news, videos from India and the world. Get today’s news headlines from Business, Technology, Sports, Movies, videos, photos, live news coverage and exclusive breaking news from India.</td>
+					<td>https://www.ndtv.com</td>
+				</tr>
+				<tr>
+					<td><img src="icon.png" alt="" class="img-rounded"></td>
+					<td>NDTV.com: Latest News, India News, Business, Cricket, Bollywood</td>
+					<td>NDTV.com provides latest news, videos from India and the world. Get today’s news headlines from Business, Technology, Sports, Movies, videos, photos, live news coverage and exclusive breaking news from India.</td>
+					<td>https://www.ndtv.com</td>
+				</tr>
+				</tbody>
+				</table>
+			</div>
+			<!--<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					<div class="panel panel-default">
+					<div class="panel-heading">Bookmarked This Month</div>
+					<div class="col-lg-11 col-sm-9 col-xs-9">
+						<div class="media">
+							<a class="thumbnail pull-left" href="#">
+								<img class="media-object" src="icon.png">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">NDTV.com: Latest News, India News, Business, Cricket, Bollywood</h4>
+								<p><span>NDTV.com provides latest news, videos from India and the world. Get today’s news headlines from Business, Technology, Sports, Movies, videos, photos, live news coverage and exclusive breaking news from India.</span></p>
+								<p>
+									
+									<a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-share"></span>Share</a>
+									
+								</p>
+						</div>
+						</div>
+												
+					</div>
+					<div class="col-lg-1 col-sm-3 col-xs-3">
+					<button type="button" class="close" aria-hidden="true">
+      &times;
+   </button>
+					</div>
+					 
+						
+					</div>
+				</div>
+			</div>
+		</div>-->
+					<!--<div class="col-lg-12" >
+						
+						<h2 style="font-size: 17px;margin-top: -5px;font-family:sans-serif;">Bookmarked This Month</h2>
+					</div>			
+				<hr width="100%">
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-sm-6 col-xs-6">
+						<img src="icon.png" alt="" class="img-rounded">
+					</div>	
+					<div class="col-lg-6 col-sm-6 col-xs-6"><h4>Get Title</h4>
+					
+					
+					<div class="col-lg-12 col-sm-12 col-xs-12">
+					<p style="font-size:19px;">Description</p>
+					</div>
+					</div>
+					 
+				</div>
+		-->		
+
+	</div>
+	<!--Footer part-->
+	  <footer>
+		<p>Emark &copy; Company 2015</p>
+	  </footer>
+
+</div> <!-- /container -->
+
+  </body>
+</html>
