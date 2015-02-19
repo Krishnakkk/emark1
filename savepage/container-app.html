@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <script language="javascript">
+
+</script>
+    <meta charset="utf-8">
+    <title>Emark Save Page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+    
+        
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    h1{
+    padding:30px;
+    }
+    
+      /* Override some defaults */
+      html, body {
+        background-color: #eee;
+      }
+      body {
+        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+      }
+      .container > footer p {
+        text-align: center; /* center align it with the container */
+      }
+      .container {
+        width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+      }
+
+      /* The white background content wrapper */
+      .container > .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+        -webkit-border-radius: 0 0 6px 6px;
+           -moz-border-radius: 0 0 6px 6px;
+                border-radius: 0 0 6px 6px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+      /* Page header tweaks */
+      .page-header {
+        background-color: #f5f5f5;
+        padding: 20px 20px 10px;
+        margin: -20px -20px 20px;
+      }
+
+      /* Styles you shouldn't keep as they are for displaying this base example only */
+      .content .span10,
+      .content .span4 {
+        min-height: 500px;
+      }
+      /* Give a quick and non-cross-browser friendly divider */
+      .content .span4 {
+        margin-left: 0;
+        padding-left: 19px;
+        border-left: 1px solid #eee;
+      }
+
+      .topbar .btn {
+        border: 0;
+      }
+      .title{
+      font-size: 19px; 
+      color:#3b5998;
+      float: left;
+      }
+	  .input-small{
+	  height: 28px;
+		width: 160px;
+		 border: 0px; 
+	  }
+	  .container{
+	  font-size:17px;
+	  font-family:sans-serif;
+	  font-weight:bold;
+	  }
+	  .button1{
+	  margin-left: 10px;
+	 margin-top: -5px;
+	  }
+	  .col-lg-6{
+	  font-size:17px;
+	  font-family:sans-serif;
+	  }
+	  #srt{
+	  height:20px;
+	  width:30px;
+	  }
+	  select{
+	  height:30px;
+	  }
+	  
+
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="#">Emark</a>
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <form action="" class="pull-right">
+            <input class="input-small" type="text" placeholder="Username">
+            <input class="input-small" type="password" placeholder="Password">
+            <button class="btn" type="submit">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+<div class="container">
+
+	<div class="content">
+		<div class="page-header">
+			 <ul class="media-grid">
+					<li><a href="#"><img src="icon.png" ></a></li>
+					<li><h1 class="title">Emark Saved Page </h1></li>
+					<li><input type="text" class="input-medium search-query" name="s" placeholder="Search" value="">
+        <button type="submit" class="add-on"><i class="icon-search"></i></button></li>
+			</ul>
+			<ul class="tabs">
+						  <li class="active"><a href="#">All</a></li>
+						  <li class=""><a href="#">Links</a></li>
+						  <li class=""><a href="#">Archive</a></li>
+						  <li>		  
+			<select>
+				<option selected>--Select Category--</option>
+				<option>Education</option>
+				<option>Entertainment</option>
+				<option>Sports</option>
+			</select>	</li>
+				<p></p><li><button id="button1"type="button" class="btn btn-primary btn active" onclick="add_field()">Add category</button></li>
+		
+		</ul>		
+			
+		</div>
+		<div class="row">
+			<div class="col-lg-12" >
+				
+				<h2 >Bookmarked This Month</h2>
+			</div>
+		
+			<div class="col-lg-6">
+				<img src="icon.png" alt="" class="img-rounded">
+			</div>	
+			<div class="col-lg-6"><h4>Get Title</h5>
+			</br>
+			<p style="font-size:19px;">Description</p>
+			</div>
+		</div>			
+				
+			
+			
+		
+	</div>
+    <footer>
+        <p>Emark &copy; Company 2015</p>
+     </footer>
+
+</div> <!-- /container -->
+
+ </body>
+</html>
